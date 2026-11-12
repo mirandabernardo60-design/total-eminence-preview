@@ -360,7 +360,7 @@ html,body{overflow-x:clip}
 .row h3{display:flex;align-items:center;gap:22px}
 .av{width:56px;height:56px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 0 0 1px var(--line),0 0 0 4px var(--bg),0 0 0 5px rgba(201,164,95,.0);transition:box-shadow .5s,transform .6s cubic-bezier(.22,.8,.3,1)}
 .row:hover .av{box-shadow:0 0 0 1px var(--gold),0 0 0 4px var(--bg),0 0 0 5px var(--gold);transform:scale(1.06)}
-.peek{position:fixed;left:0;top:0;z-index:30;width:300px;aspect-ratio:283/195;border-radius:18px;overflow:hidden;pointer-events:none;opacity:0;transform:translate3d(-50%,-50%,0) scale(.85) rotate(-3deg);transition:opacity .35s;box-shadow:0 30px 60px -25px rgba(21,18,14,.55),0 0 0 1px rgba(201,164,95,.5)}
+.peek{position:fixed;left:0;top:0;z-index:30;width:380px;aspect-ratio:283/195;border-radius:0;overflow:hidden;pointer-events:none;opacity:0;transform:translate3d(-50%,-50%,0) scale(.85) rotate(-3deg);transition:opacity .35s;box-shadow:0 30px 60px -25px rgba(21,18,14,.55),0 0 0 1px rgba(201,164,95,.5)}
 .peek img{width:100%;height:100%;object-fit:cover;display:block}
 .peek.on{opacity:1}
 @media(hover:none),(max-width:900px){.peek{display:none}.av{width:48px;height:48px}.row h3{gap:16px}}
@@ -392,7 +392,7 @@ tcs.forEach(function(t){t.addEventListener('click',function(e){if(e.target.close
 (function(){var pk=document.getElementById('peek');if(!pk||!matchMedia('(hover:hover)').matches)return;var im=pk.querySelector('img');
 var x=0,y=0,cx=0,cy=0,on=false,raf=0,rot=0;
 function loop(){cx+=(x-cx)*.14;cy+=(y-cy)*.14;var r=Math.max(-6,Math.min(6,(x-cx)*.04));rot+=(r-rot)*.2;
- pk.style.transform='translate3d('+(cx-150)+'px,'+(cy-100)+'px,0) scale('+(on?1:.85)+') rotate('+rot.toFixed(2)+'deg)';
+ pk.style.transform='translate3d('+(cx-190)+'px,'+(cy-131)+'px,0) scale('+(on?1:.85)+') rotate('+rot.toFixed(2)+'deg)';
  if(on||Math.abs(x-cx)>.5)raf=requestAnimationFrame(loop);else raf=0}
 document.querySelectorAll('.row[data-img]').forEach(function(r){
  r.addEventListener('mouseenter',function(e){im.src=r.dataset.img;on=true;pk.classList.add('on');x=e.clientX+40;y=e.clientY;if(!cx){cx=x;cy=y}if(!raf)loop()});
