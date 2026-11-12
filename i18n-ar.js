@@ -21,7 +21,7 @@ var T={
 "Investment Portfolio":"المحفظة الاستثمارية","Strategic advisory and market research for investors in the UAE and abroad, from negotiation to renovation and full management.":"استشارات استراتيجية وأبحاث سوق للمستثمرين داخل الإمارات وخارجها، من التفاوض إلى التجديد والإدارة الكاملة.",
 "Valuation":"التقييم العقاري","A free, no-obligation valuation of your property, then a considered listing to the right buyers or tenants.":"تقييم مجاني ودون أي التزام لعقارك، ثم عرضه بعناية على المشترين أو المستأجرين المناسبين.",
 "Our Team":"فريقنا","The people behind every deal.":"الأشخاص وراء كل صفقة.",
-"Umar Farooq Khan Khattak":"عمر فاروق خان خطك","Samir Ali":"سمير علي","Taimur Hassan Shah":"تيمور حسن شاه","Syed Ahmed Abdul Badey":"سيد أحمد عبد البديع",
+"Umar Farooq Khan Khattak":"عمر فاروق خان خطك","Samir Ali":"سمير علي","Taimur Hassan Shah":"تيمور حسن شاه","Syed Ahmed Abdul Badey":"سيد أحمد عبد البديع","Mushaida Khan":"مشيدة خان","Sales Agent":"وكيلة مبيعات","Get in touch with Mushaida":"تواصل مع السيدة مشيدة",
 "General Manager":"المدير العام","Sales Director":"مدير قطاع المبيعات","Sales Manager":"مدير المبيعات","Senior Property Consultant":"مستشار عقاري أول",
 "Get in touch with Umar":"تواصل مع السيد عمر","Get in touch with Samir":"تواصل مع السيد سمير","Get in touch with Taimur":"تواصل مع السيد تيمور","Get in touch with Syed Ahmed":"تواصل مع السيد سيد أحمد",
 "Enquire":"استفسر",
